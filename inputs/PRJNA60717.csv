@@ -1,0 +1,12 @@
+﻿sample,strain_var_over_cov10_in_paper,strain_var_over_cov5_in_paper,sourmash,run_accessions
+day15,2,2,NO,SRR492182;SRR492183
+day15.5,2,2,yes,SRR492192;SRR492193
+day16,2,3,yes,SRR492187
+day17,1,1,no,SRR492190;SRR492191
+day17.5,1,2,yes,SRR492188;SRR492189
+day18,2,2,yes,SRR492196
+day19,1,2,yes,SRR492185;SRR492186
+day22,1,2,NO,SRR492184
+day22.5,1,1,no,SRR492194;SRR492195
+day23,0,1,no,SRR492065;SRR492066
+day24,1,1,no,SRR492197
