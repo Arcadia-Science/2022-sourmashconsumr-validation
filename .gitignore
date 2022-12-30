@@ -1,0 +1,4 @@
+.snakemake/
+outputs/
+inputs/CAMI_low.tar
+inputs/CAMI_low/
