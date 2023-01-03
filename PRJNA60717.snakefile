@@ -47,8 +47,8 @@ rule sketch_samples:
             runs = runs.split(";")
             if len(runs) == 1:
                 # if there was only one run accession for the sample, sketch the run accession with the sample name as the sketch name
-                r1_path = os.path.join("inputs", "raw", runs + "_pass_1.fastq.gz")
-                r2_path = os.path.join("inputs", "raw", runs + "_pass_2.fastq.gz")
+                r1_path = os.path.join("inputs", "raw", runs[0] + "_pass_1.fastq.gz")
+                r2_path = os.path.join("inputs", "raw", runs[0] + "_pass_2.fastq.gz")
                 shell("sourmash sketch dna -p k=21,k=31,k=51,scaled=1000,abund --name {sample} -o {sig_path} {r1_path} {r2_path}")
             else:
                 # else there are two accessions and they need to be sketched into a single signature
