@@ -1,7 +1,6 @@
 import pandas as pd
 
 taxonomy = pd.read_csv("inputs/CAMI_low_taxonomy.csv", header = 0)
-#complexity = ['low', 'medium', 'high']
 SOURCE_GENOMES = taxonomy['ident'].unique().tolist()
 
 rule all:
