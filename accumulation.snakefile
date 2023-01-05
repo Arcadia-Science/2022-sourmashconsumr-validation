@@ -34,14 +34,21 @@ rule fastp:
     fastp -q 20 -i {input.r1} -I {input.r2} -o {output.r1} -O {output.r2} -j {output.json} -h {output.html} -R {wildcards.acc}
     '''
 
+rule tmp_gunzip_for_nonpareil:
+    input: "outputs/fastp/{acc}_1.fq.gz"
+    output: temp("outputs/temp/{acc}_1.fq")
+    shell:'''
+    gunzip -c {input} > {output}
+    '''
+
 rule nonpareil:
     """
     The nonpareil documentation states, "if you have paired-end reads, you should use only one sister read per pair in Nonpareil." 
     """
-    input: "outputs/fastp/{acc}_1.fq.gz"
+    input: "outputs/temp/{acc}_1.fq"
     output: "outputs/nonpareil/{acc}.npo"
     params: prefix = lambda wildcards: "outputs/nonpareil/" + wildcards.acc 
-    conda: "envs/nonpareil.html"
+    conda: "envs/nonpareil.yml"
     shell:'''
     nonpareil -s {input} -T kmer -f fastq -b {params.prefix}
     '''
