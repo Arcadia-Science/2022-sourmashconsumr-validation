@@ -8,8 +8,7 @@ ACC = m['Run'].unique().tolist()
 rule all:
     input: 
         expand("outputs/nonpareil/{acc}.npo", acc = ACC),
-        expand("outputs/sourmash_sketch/{acc}_raw.sig", acc = ACC),
-        expand("outputs/sourmash_sketch/{acc}_fastp.sig", acc = ACC)
+        expand("outputs/sourmash_sketch/{acc}_{types}_100k.sig", acc = ACC, types = ["fastp", "raw"])
 
 rule download_runs:
     output:
@@ -77,3 +76,12 @@ rule sourmash_sketch_fastp:
     shell:'''
     sourmash sketch dna -p k=21,k=31,k=51,scaled=10000,abund --name {wildcards.acc} -o {output} {input.r1} {input.r2}
     '''
+
+rule sourmash_sketch_downsample:
+    input: "outputs/sourmash_sketch/{acc}_{types}.sig"
+    output: "outputs/sourmash_sketch/{acc}_{types}_100k.sig"
+    conda: "envs/sourmash.yml"
+    shell:'''
+    sourmash sig downsample --scaled 100000 -o {output} {input}
+    '''
+    
