@@ -1,19 +1,4 @@
-import pandas as pd
-
-m = pd.read_csv("inputs/PRJNA60717.csv", header = 0)
-SAMPLES = m['sample'].unique().tolist()
-
-# parse out all run accessions (some samples have two accessions, some only have one)
-def flatten(l):
-    return [item for sublist in l for item in sublist]
-
-RUNSTMP = m['run_accessions'].unique().tolist()
-RUNS = list()
-for run in RUNSTMP:
-    tmp = run.split(";")
-    RUNS.append(tmp)
-
-RUNS = flatten(RUNS)
+ACC = ["SRR5936131", "SRR5947006", "SRR5935765", "SRR5936197", "SRR5946923", "SRR5946920"]
 
 rule download_runs:
     output:
