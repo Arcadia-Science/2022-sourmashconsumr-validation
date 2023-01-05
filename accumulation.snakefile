@@ -1,5 +1,11 @@
 ACC = ["SRR5936131", "SRR5947006", "SRR5935765", "SRR5936197", "SRR5946923", "SRR5946920"]
 
+rule all:
+    input: 
+        expand("outputs/nonpareil/{acc}.npo", acc = ACC),
+        expand("outputs/sourmash_sketch/{acc}_raw.sig", acc = ACC),
+        expand("outputs/sourmash_sketch/{acc}_fastp.sig", acc = ACC)
+
 rule download_runs:
     output:
         r1 = "inputs/raw/{acc}_pass_1.fastq.gz",
@@ -34,7 +40,7 @@ rule nonpareil:
     """
     input: "outputs/fastp/{acc}_1.fq.gz"
     output: "outputs/nonpareil/{acc}.npo"
-    params: prefix = lambda wildcards: "outputs/nonpareil/" + {wildcards.acc} 
+    params: prefix = lambda wildcards: "outputs/nonpareil/" + wildcards.acc 
     conda: "envs/nonpareil.html"
     shell:'''
     nonpareil -s {input} -T kmer -f fastq -b {params.prefix}
