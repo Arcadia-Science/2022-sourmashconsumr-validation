@@ -1,4 +1,9 @@
-ACC = ["SRR5936131", "SRR5947006", "SRR5935765", "SRR5936197", "SRR5946923", "SRR5946920"]
+import pandas as pd
+
+#ACC = ["SRR5936131", "SRR5947006", "SRR5935765", "SRR5936197", "SRR5946923", "SRR5946920"]
+
+m = pd.read_csv("inputs/nonpareil_fig2_samples.csv", header = 0)
+ACC = m['Run'].unique().tolist()
 
 rule all:
     input: 
@@ -8,8 +13,8 @@ rule all:
 
 rule download_runs:
     output:
-        r1 = "inputs/raw/{acc}_pass_1.fastq.gz",
-        r2 = "inputs/raw/{acc}_pass_2.fastq.gz"
+        r1 = temp("inputs/raw/{acc}_pass_1.fastq.gz"),
+        r2 = temp("inputs/raw/{acc}_pass_2.fastq.gz")
     conda: 'envs/sratools.yml'
     shell:'''
     fastq-dump --gzip --outdir inputs/raw --skip-technical --readids --read-filter pass --dumpbase --split-3 --clip {wildcards.acc}
@@ -25,8 +30,8 @@ rule fastp:
         r1 = "inputs/raw/{acc}_pass_1.fastq.gz",
         r2 = "inputs/raw/{acc}_pass_2.fastq.gz"
     output:
-        r1 = "outputs/fastp/{acc}_1.fq.gz",
-        r2 = "outputs/fastp/{acc}_2.fq.gz",
+        r1 = temp("outputs/fastp/{acc}_1.fq.gz"),
+        r2 = temp("outputs/fastp/{acc}_2.fq.gz"),
         html = "outputs/fastp/{acc}.html",
         json = "outputs/fastp/{acc}.json"
     conda: "envs/fastp.yml"
