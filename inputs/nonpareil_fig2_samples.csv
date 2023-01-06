@@ -1,86 +1,89 @@
-﻿Project,Sample,Run,Platform,High biome,Biome
-ERP014522,ERS1079001,ERR1307052,Illumina,Animal,Broiler Caecum   
-SRP056641,SRS971427,SRR2240256,Illumina,Animal,Human Anterior nares  
-SRP056641,SRS1055060,SRR2241209,Illumina,Animal,Human Buccal mucosa  
-ERP005507,ERS430636,ERR472949,Illumina,Animal,Human Medieval Skeleton  
-ERP006678,ERS537696,ERR589719,Illumina,Animal,Human Rheumatoid Gut  
-ERP011339,ERS805755,ERR981247,Illumina,Animal,Human Skin   
-SRP056641,SRS1041031,SRR2175645,Illumina,Animal,Human Stool   
-SRP056641,SRS893385,SRR1952623,Illumina,Animal,Human Supragingival plaque  
-SRP056641,SRS893352,SRR1952591,Illumina,Animal,Human Tongue dorsum  
-ERP005462,ERS428192,ERR470082,Ion Torrent,Animal,Kankrej Cow Rumen  
-ERP020572,ERS1474381,ERR1762125,Illumina,Animal,Mouse Colitis Stool  
-ERP006800,ERS569458,ERR658091,Illumina,Animal,Mouse DarkPhase Stool  
-ERP020572,ERS1474383,ERR1762111,Illumina,Animal,Mouse Stool   
-ERP015203,ERS1122653,ERR1367842,Illumina,Animal,Mouse Stool   
-ERP013165,ERS970408,ERR1135432,Illumina,Animal,Pig Stool   
-ERP013942,ERS1037701,ERR1223843,Illumina,Animal,Pig Stool B  
-ERP021211,ERS1566221,ERR1854461,Illumina,Animal,Salmon Faeces   
-ERP011345,ERS805497,ERR977414,Illumina,Engineered,Austria Petrochemical Waste  
-SRP046072,SRS693743,SRR1562011,Illumina,Engineered,China Liquor 20y  
-SRP046072,SRS693731,SRR1561999,Illumina,Engineered,China Liquor 220y  
-SRP046072,SRS693721,SRR1561989,Illumina,Engineered,China Liquor 440y  
-SRP046072,SRS693735,SRR1562003,Illumina,Engineered,China Liquor 50y  
-ERP009124,ERS632930,ERR712390,Illumina,Engineered,Danish Activated Sludge  
-ERP011345,ERS805491,ERR977425,Illumina,Engineered,Danish Petrochemical Waste  
-ERP015410,ERS1215587,ERR1467155,Illumina,Engineered,Danish Wastewater   
-ERP005835,ERS627438,ERR699788,Illumina,Engineered,France Cheese   
-ERP011345,ERS805499,ERR977420,Illumina,Engineered,German Petrochemical Waste  
-ERP014522,ERS1078367,ERR1306535,Illumina,Engineered,Italy Broiler Meat  
-SRP003198,SRS211744,SRR256754,454,Engineered,Kimchi    
-ERP011345,ERS805494,ERR977405,Illumina,Engineered,Russian Petrochemical Waste  
-ERP021211,ERS1545971,ERR1823566,Illumina,Engineered,Salmon Feed   
-ERP015657,ERS1162552,ERR1414231,Illumina,Engineered,Swedish Activated Sludge  
-ERP015657,ERS1162594,ERR1414273,Illumina,Engineered,Swedish Primary Sludge  
-ERP015657,ERS1162544,ERR1414223,Illumina,Engineered,Swedish Wastewater   
-ERP016191,ERS1276023,ERR1554596,Illumina,Enrichment,Achromatium populations from Lake Stechlin   
-ERP010072,ERS700853,ERR845264,Illumina,Enrichment,Methanesulfonate enrichment    
-SRP013339,SRS334564,SRR500503,Illumina,Enrichment,Naphtalene Enrichment   
-ERP017906,ERS1408748,ERR1688863,Illumina,Enrichment,Oil Enrichment   
-ERP013793,ERS1030529,ERR1201173,Illumina,Freshwater,Alpine Glacier   
-ERP006615,ERS524244,ERR575705,Illumina,Freshwater,Australia Bilabong Uranyl  
-ERP016382,ERS1245396,ERR1527265,Illumina,Freshwater,Australia Groundwater Radioactive   
-ERP021244,ERS1532239,ERR1816708,Ion,Freshwater,Torrent Curua Una River 
-ERP016063,ERS1443742,ERR1725848,Illumina,Freshwater,Daisy Lake   
-ERP021394,ERS1546685,ERR1824222,454,Freshwater,Diamante River   
-ERP009117,ERS632771,ERR711863,Illumina,Freshwater,Dianchi Lake   
-SRP080009,SRS1589004,SRR3960573,Illumina,Freshwater,Lake Mendota   
-ERP013741,ERS1027341,ERR1198911,Illumina,Freshwater,Movile Cave Water  
-ERP016482,ERS1261403,ERR1544444,Illumina,Freshwater,Nakdong River   
-ERP013793,ERS1030534,ERR1201178,Illumina,Freshwater,Pakistan Glacier   
-ERP013033,ERS950426,ERR1104488,Illumina,Freshwater,Rabindra Sarovar Lake  
-ERP012868,ERS956539,ERR1121555,Ion Torrent,Freshwater,Svalbard Glacier   
-ERP020465,ERS1467323,ERR1750013,Ion Torrent,Freshwater,Tucurui Lake   
-ERP016258,ERS1222671,ERR1474558,Illumina,Freshwater,Xiangxi River   
-ERP001736,ERS487936,ERR598950,Illumina,Marine,Alboran Sea   
-SRP039390,SRS581965,SRR1204581,Illumina,Marine,Amazon Plume   
-ERP001736,ERS489074,ERR599053,Illumina,Marine,Arabian Sea   
-ERP018210,ERS1418479,ERR1698987,Illumina,Marine,Copano Bay   
-ERP018210,ERS1418469,ERR1698980,Illumina,Marine,Galveston Bay   
-ERP001736,ERS489315,ERR599138,Illumina,Marine,Indian Sea   
-ERP001736,ERS488509,ERR599094,Illumina,Marine,Mediterranean Sea   
-ERP017354,ERS1370021,ERR1662525,Illumina,Marine,MidCayman Rise Subseafloor   
-ERP008814,ERS612887,ERR688354,Illumina,Marine,Noosa Estuary   
-ERP001736,ERS494374,ERR598958,Illumina,Marine,North Atlantic Ocean  
-ERP001736,ERS493372,ERR598980,Illumina,Marine,North Pacific Ocean  
-ERP018210,ERS1418484,ERR1698991,Illumina,Marine,Nueces Bay   
-ERP001736,ERS488545,ERR599106,Illumina,Marine,Red Sea   
-ERP001736,ERS490433,ERR598984,Illumina,Marine,South Atlantic Ocean  
-ERP001736,ERS491804,ERR599024,Illumina,Marine,South Pacific Ocean  
-SRP039575,SRS567760,SRR1185960,Illumina,Soil,Arsenic Antimony Soil  
-ERP008551,ERS580791,ERR671919,Illumina,Soil,Australian Calcarosols   
-ERP004852,ERS402379,ERR430975,Ion Torrent,Soil,Australian Forest   
-ERP008551,ERS580784,ERR671939,Illumina,Soil,Australian Tenosols   
-ERP008551,ERS580794,ERR671913,Illumina,Soil,Australian Vertosols   
-ERP014473,ERS1075580,ERR1303295,Illumina,Soil,Florianopolis Dune   
-ERP014473,ERS1075581,ERR1303296,Illumina,Soil,Florianopolis Forest   
-SRP046227,SRS697016,SRR1569466,Illumina,Soil,Florida Beach Sediments  
-SRP017930,SRS386691,SRR650839,Illumina,Soil,Konjac Plowland   
-SRP033484,SRS510679,SRR1042602,Ion Torrent,Soil,Kutch Saline Desert Soil 
-SRP029969,SRS481052,SRR988096,Illumina,Soil,Oklahoma Grassland   
-SRP018858,SRS398270,SRR770299,Illumina,Soil,Swamp    
-PRJNA48475,SAMN00120089,SRR172903,Illumina,Mock,HMP Mock Staggered  
-PRJNA48475,SAMN00120089,SRR072232,454,Mock,HMP Mock Staggered  
-PRJNA48475,SAMN00120088,SRR172902,Illumina,Mock,HMP Mock Even  
-PRJNA48475,SAMN00120088,SRR072233,454,Mock,HMP Mock Even  
-PRJNA324704,SAMN05213576,SRR3656745,Illumina,Mock,MBARC-26    
+﻿Project,Sample,Run,Platform,High biome,Biome,paired_info,data_availability
+ERP014522,ERS1079001,ERR1307052,Illumina,Animal,Broiler Caecum   ,pe,available
+SRP056641,SRS971427,SRR2240256,Illumina,Animal,Human Anterior nares  ,pe,available
+SRP056641,SRS1055060,SRR2241209,Illumina,Animal,Human Buccal mucosa  ,pe,available
+ERP005507,ERS430636,ERR472949,Illumina,Animal,Human Medieval Skeleton  ,pe,available
+ERP006678,ERS537696,ERR589719,Illumina,Animal,Human Rheumatoid Gut  ,pe,available
+ERP011339,ERS805755,ERR981247,Illumina,Animal,Human Skin   ,pe,available
+SRP056641,SRS1041031,SRR2175645,Illumina,Animal,Human Stool   ,pe,available
+SRP056641,SRS893385,SRR1952623,Illumina,Animal,Human Supragingival plaque  ,pe,available
+SRP056641,SRS893352,SRR1952591,Illumina,Animal,Human Tongue dorsum  ,pe,available
+ERP005462,ERS428192,ERR470082,Ion Torrent,Animal,Kankrej Cow Rumen  ,se,available
+ERP020572,ERS1474381,ERR1762125,Illumina,Animal,Mouse Colitis Stool  ,pe,available
+ERP006800,ERS569458,ERR658091,Illumina,Animal,Mouse DarkPhase Stool  ,pe,available
+ERP020572,ERS1474383,ERR1762111,Illumina,Animal,Mouse Stool   ,pe,available
+ERP015203,ERS1122653,ERR1367842,Illumina,Animal,Mouse Stool   ,se,available
+ERP013165,ERS970408,ERR1135432,Illumina,Animal,Pig Stool   ,pe,available
+ERP013942,ERS1037701,ERR1223843,Illumina,Animal,Pig Stool B  ,pe,available
+ERP021211,ERS1566221,ERR1854461,Illumina,Animal,Salmon Faeces   ,pe,available
+ERP011345,ERS805497,ERR977414,Illumina,Engineered,Austria Petrochemical Waste  ,pe,available
+SRP046072,SRS693743,SRR1562011,Illumina,Engineered,China Liquor 20y  ,pe,available
+SRP046072,SRS693731,SRR1561999,Illumina,Engineered,China Liquor 220y  ,pe,available
+SRP046072,SRS693721,SRR1561989,Illumina,Engineered,China Liquor 440y  ,pe,available
+SRP046072,SRS693735,SRR1562003,Illumina,Engineered,China Liquor 50y  ,pe,available
+ERP009124,ERS632930,ERR712390,Illumina,Engineered,Danish Activated Sludge  ,pe,available
+ERP011345,ERS805491,ERR977425,Illumina,Engineered,Danish Petrochemical Waste  ,pe,available
+ERP015410,ERS1215587,ERR1467155,Illumina,Engineered,Danish Wastewater   ,pe,available
+ERP005835,ERS627438,ERR699788,Illumina,Engineered,France Cheese   ,pe,available
+ERP011345,ERS805499,ERR977420,Illumina,Engineered,German Petrochemical Waste  ,pe,available
+ERP014522,ERS1078367,ERR1306535,Illumina,Engineered,Italy Broiler Meat  ,pe,available
+SRP003198,SRS211744,SRR256754,454,Engineered,Kimchi    ,se,available
+ERP011345,ERS805494,ERR977405,Illumina,Engineered,Russian Petrochemical Waste  ,pe,available
+ERP021211,ERS1545971,ERR1823566,Illumina,Engineered,Salmon Feed   ,pe,available
+ERP015657,ERS1162552,ERR1414231,Illumina,Engineered,Swedish Activated Sludge  ,pe,available
+ERP015657,ERS1162594,ERR1414273,Illumina,Engineered,Swedish Primary Sludge  ,pe,available
+ERP015657,ERS1162544,ERR1414223,Illumina,Engineered,Swedish Wastewater   ,pe,available
+ERP016191,ERS1276023,ERR1554596,Illumina,Enrichment,Achromatium populations from Lake Stechlin   ,pe,available
+ERP010072,ERS700853,ERR845264,Illumina,Enrichment,Methanesulfonate enrichment    ,pe,available
+SRP013339,SRS334564,SRR500503,Illumina,Enrichment,Naphtalene Enrichment   ,se,available
+ERP017906,ERS1408748,ERR1688863,Illumina,Enrichment,Oil Enrichment   ,pe,available
+ERP013793,ERS1030529,ERR1201173,Illumina,Freshwater,Alpine Glacier   ,pe,available
+ERP006615,ERS524244,ERR575705,Illumina,Freshwater,Australia Bilabong Uranyl  ,pe,available
+ERP016382,ERS1245396,ERR1527265,Illumina,Freshwater,Australia Groundwater Radioactive   ,pe,available
+ERP021244,ERS1532239,ERR1816708,Ion Torrent,Freshwater,Torrent Curua Una River ,se,available
+ERP016063,ERS1443742,ERR1725848,Illumina,Freshwater,Daisy Lake   ,pe,available
+ERP021394,ERS1546685,ERR1824222,454,Freshwater,Diamante River   ,se,available
+ERP009117,ERS632771,ERR711863,Illumina,Freshwater,Dianchi Lake   ,pe,available
+SRP080009,SRS1589004,SRR3960573,Illumina,Freshwater,Lake Mendota   ,pe,available
+ERP013741,ERS1027341,ERR1198911,Illumina,Freshwater,Movile Cave Water  ,pe,unavailable
+ERP016482,ERS1261403,ERR1544444,Illumina,Freshwater,Nakdong River   ,se,available
+ERP013793,ERS1030534,ERR1201178,Illumina,Freshwater,Pakistan Glacier   ,pe,available
+ERP013033,ERS950426,ERR1104488,Illumina,Freshwater,Rabindra Sarovar Lake  ,pe,available
+ERP012868,ERS956539,ERR1121555,Ion Torrent,Freshwater,Svalbard Glacier   ,se,available
+ERP020465,ERS1467323,ERR1750013,Ion Torrent,Freshwater,Tucurui Lake   ,se,available
+ERP016258,ERS1222671,ERR1474558,Illumina,Freshwater,Xiangxi River   ,pe,available
+ERP001736,ERS487936,ERR598950,Illumina,Marine,Alboran Sea   ,pe,available
+SRP039390,SRS581965,SRR1204581,Illumina,Marine,Amazon Plume   ,pe,available
+ERP001736,ERS489074,ERR599053,Illumina,Marine,Arabian Sea   ,pe,available
+ERP018210,ERS1418479,ERR1698987,Illumina,Marine,Copano Bay   ,pe,available
+ERP018210,ERS1418469,ERR1698980,Illumina,Marine,Galveston Bay   ,pe,available
+ERP001736,ERS489315,ERR599138,Illumina,Marine,Indian Sea   ,pe,available
+ERP001736,ERS488509,ERR599094,Illumina,Marine,Mediterranean Sea   ,pe,available
+ERP017354,ERS1370021,ERR1662525,Illumina,Marine,MidCayman Rise Subseafloor   ,pe,available
+ERP008814,ERS612887,ERR688354,Illumina,Marine,Noosa Estuary   ,pe,available
+ERP001736,ERS494374,ERR598958,Illumina,Marine,North Atlantic Ocean  ,pe,available
+ERP001736,ERS493372,ERR598980,Illumina,Marine,North Pacific Ocean  ,pe,available
+ERP018210,ERS1418484,ERR1698991,Illumina,Marine,Nueces Bay   ,pe,available
+ERP001736,ERS488545,ERR599106,Illumina,Marine,Red Sea   ,pe,available
+ERP001736,ERS490433,ERR598984,Illumina,Marine,South Atlantic Ocean  ,pe,available
+ERP001736,ERS491804,ERR599024,Illumina,Marine,South Pacific Ocean  ,pe,available
+SRP039575,SRS567760,SRR1185960,Illumina,Soil,Arsenic Antimony Soil  ,pe,available
+ERP008551,ERS580791,ERR671919,Illumina,Soil,Australian Calcarosols   ,pe,available
+ERP004852,ERS402379,ERR430975,Ion Torrent,Soil,Australian Forest   ,se,available
+ERP008551,ERS580784,ERR671939,Illumina,Soil,Australian Tenosols   ,pe,available
+ERP008551,ERS580794,ERR671913,Illumina,Soil,Australian Vertosols   ,pe,available
+ERP014473,ERS1075580,ERR1303295,Illumina,Soil,Florianopolis Dune   ,pe,available
+ERP014473,ERS1075581,ERR1303296,Illumina,Soil,Florianopolis Forest   ,pe,available
+SRP046227,SRS697016,SRR1569466,Illumina,Soil,Florida Beach Sediments  ,pe,available
+SRP017930,SRS386691,SRR650839,Illumina,Soil,Konjac Plowland   ,pe,available
+SRP033484,SRS510679,SRR1042602,Ion Torrent,Soil,Kutch Saline Desert Soil ,se,available
+SRP029969,SRS481052,SRR988096,Illumina,Soil,Oklahoma Grassland   ,pe,available
+SRP018858,SRS398270,SRR770299,Illumina,Soil,Swamp    ,pe,available
+SRP008617,SRS265882,SRP008617,Illumina,Soil,Wisconsin Corn Soil  ,pe,available
+SRP008628,SRS265900,SRP008628,Illumina,Soil,Wisconsin Native Prairie  ,pe,available
+SRP008595,SRS265861,SRP008595,Illumina,Soil,Wisconsin Switchgrass Soil  ,pe,available
+PRJNA48475,SAMN00120089,SRR172903,Illumina,Mock,HMP Mock Staggered  ,se,available
+PRJNA48475,SAMN00120089,SRR072232,454,Mock,HMP Mock Staggered  ,se,available
+PRJNA48475,SAMN00120088,SRR172902,Illumina,Mock,HMP Mock Even  ,se,available
+PRJNA48475,SAMN00120088,SRR072233,454,Mock,HMP Mock Even  ,se,available
+PRJNA324704,SAMN05213576,SRR3656745,Illumina,Mock,MBARC-26    ,pe,available

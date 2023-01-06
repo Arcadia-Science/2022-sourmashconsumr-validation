@@ -3,6 +3,9 @@ import pandas as pd
 #ACC = ["SRR5936131", "SRR5947006", "SRR5935765", "SRR5936197", "SRR5946923", "SRR5946920"]
 
 m = pd.read_csv("inputs/nonpareil_fig2_samples.csv", header = 0)
+# filter to paired end libraries
+m = m[(m["paired_info"] == "pe") # filter to PE reads
+m = m[(m["data_available"] == "available") # filter to only data available
 ACC = m['Run'].unique().tolist()
 
 rule all:
@@ -23,7 +26,8 @@ rule fastp:
     """
     The nonpareil documentation states, "Nonpareil expects that the sequencing error is always well below 5%, 
     so we suggest using an expected error cutoff of 1% (i.e., Q>20, or 1 error in 100 nucleotides)."
-    This rule trims the raw reads to a Q >= 20 using fastp
+    This rule trims the raw reads to a Q >= 20 using fastp.
+    It also sets the minimum read length to the nonpareil k-mer length of 24 (sourmash auto skips these sequences).
     """
     input:
         r1 = "inputs/raw/{acc}_pass_1.fastq.gz",
@@ -35,7 +39,7 @@ rule fastp:
         json = "outputs/fastp/{acc}.json"
     conda: "envs/fastp.yml"
     shell:'''
-    fastp -q 20 -i {input.r1} -I {input.r2} -o {output.r1} -O {output.r2} -j {output.json} -h {output.html} -R {wildcards.acc}
+    fastp -q 20 --length_required 24 -i {input.r1} -I {input.r2} -o {output.r1} -O {output.r2} -j {output.json} -h {output.html} -R {wildcards.acc}
     '''
 
 rule tmp_gunzip_for_nonpareil:
