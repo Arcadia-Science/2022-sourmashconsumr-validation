@@ -4,8 +4,8 @@ import pandas as pd
 
 m = pd.read_csv("inputs/nonpareil_fig2_samples.csv", header = 0)
 # filter to paired end libraries
-m = m[(m["paired_info"] == "pe") # filter to PE reads
-m = m[(m["data_available"] == "available") # filter to only data available
+m = m[(m["paired_info"] == "pe")] # filter to PE reads
+m = m[(m["data_availability"] == "available")] # filter to only data available
 ACC = m['Run'].unique().tolist()
 
 rule all:
