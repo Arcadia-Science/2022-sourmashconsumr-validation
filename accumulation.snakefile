@@ -11,7 +11,8 @@ ACC = m['Run'].unique().tolist()
 rule all:
     input: 
         expand("outputs/nonpareil/{acc}.npo", acc = ACC),
-        expand("outputs/sourmash_sketch/{acc}_{types}_100k.sig", acc = ACC, types = ["fastp", "raw"])
+        expand("outputs/sourmash_sketch/{acc}_{types}_100k.sig", acc = ACC, types = ["fastp", "raw"]),
+        expand("outputs/sourmashconsumr_rarefaction/{acc}_{types}_100k_rarefaction.tsv", acc = ACC, types = ['fastp']
 
 rule download_runs:
     output:
@@ -88,4 +89,16 @@ rule sourmash_sketch_downsample:
     shell:'''
     sourmash sig downsample --scaled 100000 -o {output} {input}
     '''
-    
+
+rule install_sourmashconsumr:
+    output: "outputs/sourmashconsumr_rarecurve/installed.txt"
+    conda: "envs/sourmashconsumr.yml"
+    script: "scripts/install_sourmashconsumr.R"
+
+rule sourmashconsumr_rarefaction:
+    input: 
+        install = "outputs/sourmashconsumr_rarecurve/installed.txt"
+        sig = "outputs/sourmash_sketch/{acc}_{types}_100k.sig"
+    output: tsv = "outputs/sourmashconsumr_rarefaction/{acc}_{types}_100k_rarefaction.tsv"
+    conda: "envs/sourmashconsumr.R"
+    script: "scripts/sourmashconsumr_rarefaction.R"
