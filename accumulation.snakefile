@@ -91,7 +91,7 @@ rule sourmash_sketch_downsample:
     '''
 
 rule install_sourmashconsumr:
-    output: "outputs/sourmashconsumr_rarefaction/installed.txt"
+    output: install="outputs/sourmashconsumr_rarefaction/installed.txt"
     conda: "envs/sourmashconsumr.yml"
     script: "scripts/install_sourmashconsumr.R"
 
