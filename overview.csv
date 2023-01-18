@@ -1,0 +1,17 @@
+﻿sourmash,class,class_value,func,value
+sketch,plot,2,upset,1
+compare,plot,2,heatmap,1
+gather,plot,2,upset,1
+taxonomy,plot,2,upset,1
+sketch,analyze,3,sequencing depth rarefaction,1
+compare,analyze,3,multidimensional scaling,1
+gather,plot,2,bar ,1
+taxonomy,analyze,3,detect multiple strains,1
+taxonomy,plot,2,sankey,1
+taxonomy,plot,2,time series alluvial,1
+taxonomy,convert,4,to metacoder,1
+taxonomy,convert,4,to phyloseq,1
+sketch,read & parse,1,read,1
+compare,read & parse,1,read,1
+gather,read & parse,1,read,1
+taxonomy,read & parse,1,read,1
