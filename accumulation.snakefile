@@ -1,5 +1,6 @@
 import pandas as pd
 
+# uncomment this line and comment out line 10 to only run on the gut samples that are built into the sourmashconsumr R package as data sets. 
 #ACC = ["SRR5936131", "SRR5947006", "SRR5935765", "SRR5936197", "SRR5946923", "SRR5946920"]
 
 m = pd.read_csv("inputs/nonpareil_fig2_samples.csv", header = 0)
