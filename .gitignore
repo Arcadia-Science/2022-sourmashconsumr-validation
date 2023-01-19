@@ -7,3 +7,6 @@ inputs/sourmash_databases/genbank-2022.03-bacteria-k31.zip
 inputs/sourmash_databases/genbank-2022.03-bacteria.lineages.csv
 inputs/sourmash_databases/genbank-2022.03-bacteria.lineages.csv.gz
 notebooks/.ipynb_checkpoints/
+.Rhistory
+.DS_Store
+inputs/SuisseIntl-Regular.otf
