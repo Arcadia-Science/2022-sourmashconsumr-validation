@@ -3,6 +3,8 @@ outputs/
 inputs/CAMI_low.tar
 inputs/CAMI_low/
 inputs/raw/
+inputs/TableS3.tsv
+inputs/TableS3_metadata.tsv
 inputs/sourmash_databases/genbank-2022.03-bacteria-k31.zip
 inputs/sourmash_databases/genbank-2022.03-bacteria.lineages.csv
 inputs/sourmash_databases/genbank-2022.03-bacteria.lineages.csv.gz
