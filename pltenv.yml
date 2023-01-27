@@ -31,3 +31,4 @@ dependencies:
    - jupyter=1.0.0
    - r-showtext=0.9
    - nonpareil=3.4.1
+   - r-svglite=2.1.1
